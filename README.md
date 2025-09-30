@@ -6,7 +6,7 @@
 
 ## Differences observed between OLS, Ridge, and Lasso
  Respecto a métricas:
-El modelo cerrado (OLS) mostró mejor rendimiento a comparación de los demás modelos. Ridge mantuvo todas las variables, mientras que Lasso realizó selección de variables.
+El modelo ridge mostró un ligero mejor rendimiento a comparación de los demás modelos para los datos de California Housing. OLS podría haber tenido mayor overfitting. Ridge mantuvo todas las variables, mientras que Lasso realizó selección de variables.
 
 ## Effect of learning rate on gradient descent
 Se mostró en todos los casos que a medida que la tasa de aprendizaje aumentaba, el gradiente descendiente convergió con mayor rapidez. Sin embargo, learning ratos muy altos desestabilizaba el modelo.
